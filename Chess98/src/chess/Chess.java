@@ -50,8 +50,8 @@ public class Chess {
 				
 				trail = "";
 				
-				//move = input.nextLine().trim();
-				move = bufferedReader.readLine().trim();
+				move = input.nextLine().trim();
+				//move = bufferedReader.readLine().trim();
 				
 				if(move.equalsIgnoreCase("resign"))
 					System.exit(0);
@@ -186,10 +186,8 @@ public class Chess {
 				
 				trail = "";
 				
-				//move = input.nextLine().trim();
-				
-				
-				move = bufferedReader.readLine().trim();
+				move = input.nextLine().trim();
+				//move = bufferedReader.readLine().trim();
 				
 				
 				if(move.equalsIgnoreCase("resign"))
